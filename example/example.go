@@ -1,11 +1,3 @@
-# pongo
-[![GoDoc](https://godoc.org/github.com/nefixestrada/pongo?status.svg)](https://godoc.org/github.com/nefixestrada/pongo)
-
-Pongo is a [gorilla/sessions](https://github.com/gorilla/sessions) store wrapper for [crewjam/saml](https://github.com/crewjam/saml)
-
-## Usage
-
-```go
 package main
 
 import (
@@ -58,7 +50,3 @@ func main() {
 	http.Handle("/saml/", samlSP)
 	http.ListenAndServe(":8000", nil)
 }
-```
-
-## Why is the library named pongo?
-[https://en.wikipedia.org/wiki/Orangutan](https://en.wikipedia.org/wiki/Orangutan)
